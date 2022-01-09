@@ -7,7 +7,7 @@ These data sets contains
 - 294923 public tweets that have the keyword `beijing`
 - 297784 public tweets that have the keyword `shanghai`
 
-during the period of `2021-10-01 00:00:00 (UTC)` to `2022-01-13 22:05:09 (UTC)`.
+during the period of `2021-10-01 00:00:00 (UTC)` to `2022-01-03 22:05:09 (UTC)`.
 
 Please notice that all personal information has been wiped to the greatest extent possible.
 
