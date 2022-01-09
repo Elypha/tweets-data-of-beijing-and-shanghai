@@ -32,3 +32,28 @@ Each tweet is presented in this data set as a `json` object in the following str
 The key names should explain themselves.
 
 Each file in this project is a `jsonl` file that is [ndjson](http://ndjson.org/) format compatible.
+
+# Tutorial
+
+A brief guide to importing data is shown below.
+
+- Python
+
+```python
+import json
+
+with open(R"beijing.json", 'r', encoding='utf8') as f:
+    lines = f.read().strip().split('\n')
+
+for line in lines:
+    tweet = json.loads(line)
+```
+
+- R
+
+```r
+library("jsonlite")
+
+beijing = jsonlite::stream_in(file("beijing.json"), pagesize = 10000)
+```
+
